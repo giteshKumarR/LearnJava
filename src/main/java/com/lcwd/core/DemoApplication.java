@@ -10,7 +10,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = {"",""})
+@ComponentScan(basePackages = {"com.lcwd.core","com.lcwd.test"})
 public class DemoApplication {
 
 	public static void main(String[] args) {
